@@ -262,6 +262,10 @@ i{
     height: 32vh;
 }
 
+.socialLink{
+    margin: 0px 5px;
+}
+
 .contentChips1{
     color: white;
     justify-content: left;

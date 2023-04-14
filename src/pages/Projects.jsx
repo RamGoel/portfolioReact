@@ -12,9 +12,10 @@ function Projects() {
     return (
         <div>
             <div className='contentChips'>
-                <p className={`${(pageCato === "Design") ? 'selected' : ''}`} onClick={() => setPageCato("Design")}>UI Design</p>
-                <p className={`${(pageCato === "Web") ? 'selected' : ''}`} onClick={() => setPageCato("Web")}>Web Development</p>
-                <p className={`${(pageCato === "App") ? 'selected' : ''}`} onClick={() => setPageCato("App")}>App Development</p>
+                <p className={`${(pageCato === "Design") ? 'selected' : ''}`} onClick={() => setPageCato("Design")}>UI Designs</p>
+                <p className={`${(pageCato === "WebApp") ? 'selected' : ''}`} onClick={() => setPageCato("WebApp")}>Web Apps</p>
+                <p className={`${(pageCato === "Website") ? 'selected' : ''}`} onClick={() => setPageCato("Website")}>Websites</p>
+                <p className={`${(pageCato === "App") ? 'selected' : ''}`} onClick={() => setPageCato("App")}>Mobile Apps</p>
                 <p className={`${(pageCato === "Tool") ? 'selected' : ''}`} onClick={() => setPageCato("Tool")}>Tools/Extensions</p>
             </div>
 

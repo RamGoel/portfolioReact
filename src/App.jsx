@@ -13,6 +13,7 @@ function App() {
 
                 <p className={`lItem ${pageNum===0?'default':''}`} onClick={()=>setPageNum(0)}>About</p>
                 <p className={`lItem ${pageNum===1?'default':''}`} onClick={()=>setPageNum(1)}>Projects</p>
+                <p className={`lItem ${pageNum===4?'default':''}`} onClick={()=>setPageNum(4)}>Experience</p>
                 <p className={`lItem ${pageNum===2?'default':''}`} onClick={()=>setPageNum(2)}>Community/Events</p>
                 <p className={`lItem ${pageNum===3?'default':''}`} onClick={()=>setPageNum(3)}>Problem Solving</p>
             </ul>

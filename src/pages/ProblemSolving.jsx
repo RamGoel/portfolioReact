@@ -27,9 +27,7 @@ function ProblemSolving() {
                             </a>
                             <a href="https://www.hackerrank.com/Rgoel766" class="socialLink mx-0"><i class="fab fa-hackerrank" title="figma"></i></a>
                         </div>
-                        <button id="cta-btn">
-                            GET A PEER PROGRAMMER
-                        </button>
+                        
 
 
                     </div>
