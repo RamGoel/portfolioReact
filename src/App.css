@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*:not(i) {
+    font-family: 'Poppins' !important;
+    word-break: break-word;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar p{
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    color: white !important;
+}
+i:hover{
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+   padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.default {
+    border-bottom: 2px solid red;
+}
+
+.contentDiv {
+    color: white;
+    transition: 0.5s;
+    width: 90%;
+    margin: auto;
+    height: 70vh;
+}
+.contentDiv1 {
+    color: white;
+    transition: 0.5s;
+    width: 90%;
+    margin: auto;
+}
+
+.content-inner{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+
+    
+
+}
+
+.profileDiv{
+    width: 40%;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    border-radius: 1000px;
+    overflow: hidden;
+
+}
+.contain-right{
+    width: 50%;
+    text-align: center;
+}
+
+.profileDiv img{
+
+    width: 100%;
+    z-index:-100;
+    object-fit: cover;
+}
+.contain-right img{
+    width: 90%;
+    z-index:-100;
+    object-fit: cover;
+}
+
+.projectContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+    flex-direction: column;
+}
+
+.contain{
+    width: 40%;
+}
+
+
+
+i{
+    font-size: 20px;
+    margin-right:10px;
+}
+
+#cta-btn{
+    background-color: red;
+    border: 0;
+    padding: 5px 20px;
+    border-radius: 200px;
+    color: white;
+    margin: 5px 0px;
+}
+
+.content-inner p{
+    margin: 10px 0px;
+    line-height: 30px;
+}
+
+
+.ach-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    body{
+        overflow-y: scroll;
+    }
+    .projectContent{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .contentDiv{
+        height: auto;
+    }
+    .content-inner{
+        flex-direction: column-reverse;
+    }
+    .contain-right{
+        overflow: hidden;
+    }
+    .contain, .link-box,.profileDiv, .ach-box, #cta-btn, .contain-right{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    
+}
+
+
+
+.contentChips{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.contentChips p{
+    background-color: rgb(15, 15, 15);
+    margin-right: 10px;
+    padding:5px 10px;
+    border-radius: 200px;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.selected{
+    background-color: rgb(98, 2, 187) !important;
+}
+
+.bigText{
+    font-size: 25px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.smallText{
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.projectCard{
+    width: 25vw;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 32vh;
+    display: flex;
+    align-items: center;
+    margin:10px 20px
+}
+
+.projectCardLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectCardLinks i{
+    font-size: 13px;
+}
+
+.projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectCard p{
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.projectCardText{
+    width: 90%;
+    margin: auto;
+}
+.projectCard h3{
+    margin: 5px 0px
+}
+
+.projectCard:hover .projectCardImage{
+    display: none;
+}
+.projectCardImage{
+    width: 25vw;
+    transition: 1s;
+    border-radius: 10px;
+    position: absolute;
+    height: 32vh;
+}
+
+.contentChips1{
+    color: white;
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentChips1 p{
+    background-color: rgb(15, 15, 15);
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding:5px 10px;
+    border-radius: 200px;
+    font-size: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
