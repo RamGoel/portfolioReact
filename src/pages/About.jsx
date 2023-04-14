@@ -48,9 +48,9 @@ function About() {
                                         title="dribble"></i></a>
                             </div>
                         </div>
-                        <button id="cta-btn">
-                            DOWNLOAD RESUME
-                        </button>
+                        <a href='https://www.canva.com/design/DAFf5rA2e9k/Gl2o6Pn7UFnMb6SSb5-FxQ/view?utm_content=DAFf5rA2e9k&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu'><button id="cta-btn">
+                            VIEW RESUME
+                        </button></a>
 
 
 

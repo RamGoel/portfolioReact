@@ -1,12 +1,8 @@
 import React, { useState } from 'react'
-import UIDesign from './projects/UIDesign'
-import WebDev from './projects/WebDev'
-import solving from '../assets/solving.png'
 import { projectsData } from './projects/projectData'
 import ProjectCard from './projects/ProjectCard'
 
 function Projects() {
-    var pages = [<UIDesign />, <WebDev />]
     const [pageCato, setPageCato] = useState("Design")
         
     return (
@@ -22,19 +18,15 @@ function Projects() {
             <div className='projectContainer'>
                 {
                     projectsData.map(e=>{
-                        if(e.category==pageCato){
+                        if(e.category===pageCato){
 
                             return <ProjectCard data={e}/>
                         }
+                        return null;
                     })
                 }
                 
             </div>
-            {/* <div>
-                {
-                    pages[pageNum]
-                }
-            </div> */}
         </div>
     )
 }

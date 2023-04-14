@@ -9,10 +9,12 @@ html{
     scroll-behavior: smooth;
 }
 
-.navbar p{
+ p{
     color: white;
     cursor: pointer;
 }
+
+
 
 a{
     color: white;
@@ -65,7 +67,7 @@ ul {
 
 .content-inner{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     height: 100%;
 
@@ -155,6 +157,14 @@ i{
         flex-direction: column-reverse;
         height: auto;
     }
+    .projectCard{
+        width: 95vw !important;
+        margin: auto;
+        overflow: none;
+    }
+    .projectCardImage{
+        width: 84vw !important;
+    }
     .contentDiv{
         height: auto;
     }
@@ -167,6 +177,9 @@ i{
     .contain, .link-box,.profileDiv, .ach-box, #cta-btn, .contain-right{
         width: 90%;
         margin: 10px auto;
+    }
+    .exp-card{
+        width: 90vw !important;
     }
     
     
@@ -283,4 +296,31 @@ i{
     font-size: 10px;
     cursor: pointer;
     text-decoration: none;
+}
+
+
+#experience h1{
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.exp-card{
+    display: flex;
+    color: white;
+    width: 30vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin: 10px auto;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.exp-card div{
+    width: 70%;
+}
+
+.exp-card h5,h3{
+    margin: 10px 0px;
 }
