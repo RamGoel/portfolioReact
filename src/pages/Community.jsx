@@ -2,7 +2,7 @@ import React from 'react'
 import community from '../assets/community.jpg'
 function Community() {
   return (
-    <div class="contentDiv" id="content3">
+    <div class="contentDiv fullHeight" id="content3">
 
 
                 <div class="content-inner">
@@ -16,7 +16,7 @@ function Community() {
                             IT Day Hackathon Rajasthan. I have also taken a session on Creating Github Repo for 2nd Year
                             students while being in 3rd Year.
                         </p>
-                        <p>Going to an Event/Hackathon?, let's go together</p>
+                        <p>Do you have an opportunity? Lets talk</p>
                         <a href="mailto:rgoel766@gmail.com"><button id="cta-btn">
                             MAIL ME
                         </button></a>

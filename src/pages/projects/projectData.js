@@ -52,7 +52,7 @@ export var projectsData=[
         points:['A Tool to Optimize Website','Import only the "bootstrap you used" ','People Contributed in Hacktoberfest']
     },
     {
-        title:"TEDxABESEC Website",
+        title:"TEDxABESEC",
         links:['https://tedxabesec.in/'],
         image:tedx,
         category:"Website",
@@ -60,7 +60,7 @@ export var projectsData=[
         points:['Created for TEDxABESEC Event 2022','Visited by 1000+ students for registration','Included Animations, Optimized Images etc.']
     },
     {
-        title:"GDSC ABESEC Website",
+        title:"GDSC ABESEC",
         links:['https://abesec-gdsc.netlify.app/'],
         image:gdsc,
         category:"Website",
@@ -68,7 +68,7 @@ export var projectsData=[
         points:['Created for GDSC club','Worked in Team of 3','Used by Students to know updates.']
     },
     {
-        title:"Genero Website",
+        title:"Genero",
         links:['https://genero23.netlify.app/'],
         image:genero,
         category:"Website",
