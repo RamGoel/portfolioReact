@@ -1,2 +1,2 @@
-# insta-clone-react
-Instagram clone in ReactJS
+# Hi I'm Ram - Portfolio
+Portfolio Website Built in ReactJS
