@@ -21,14 +21,14 @@ function App() {
     }, [])
     return (
         (loaded) ? <div>
-            <Choose />
+            {/* <Choose />
             <Home />
-            <Why />
+            <Why /> */}
             <Projects />
-            <FullTime />
+            {/* <FullTime />
             <Experience />
             <Community />
-            <Footer />
+            <Footer /> */}
 
 
         </div> : <Loader />
