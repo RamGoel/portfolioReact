@@ -1,25 +1,49 @@
 import hisaab from '../../assets/hisaab1.png'
 import foodapp from '../../assets/appDev.png'
-import tedx from '../../assets/tedx.png'
-import gdsc from '../../assets/gdsc.png'
-import genero from '../../assets/genero.png'
+// import tedx from '../../assets/tedx.png'
+// import gdsc from '../../assets/gdsc.png'
+// import genero from '../../assets/genero.png'
 export var projectsData=[
     {
         title:"CodeChat",
         links:['https://codechat-8oqw.onrender.com/','https://github.com/RamGoel/CodeChat'],
         image:'',
-        category:"WebApp",
+        category:"nodejs",
         technologies:['ejs','nodejs','socketio','bootstrap'],
         points:['Allows users to chat & code at one place.','Multi Language compiler using API','Group as well as Personal Chats']
     },
    
     {
+        title:"Kalakriti",
+        links:['https://kalakriti-pwa.netlify.app/','https://github.com/RamGoel/kalakriti-web'],
+        image:'',
+        category:"reactjs",
+        technologies:['react','firebase'],
+        points:['MarketPlace for Indian Artists','Google Sign in using Firebase','Under Development']
+    },
+    {
         title:"Portify",
         links:['https://portify.onrender.com/','https://github.com/RamGoel/portify'],
         image:'',
-        category:"WebApp",
+        category:"nodejs",
         technologies:['ejs','firebase','bootstrap', 'mongodb'],
         points:['Create Portfolio Website in 3 Minutes','Google Sign in using Firebase','Simple & Effective Design']
+    },
+    {
+        title:"FeedWell",
+        links:['https://feedwell1.netlify.app/','https://github.com/RamGoel/raj-it-day'],
+        image:'',
+        category:"reactjs",
+        technologies:['reactjs','firebase'],
+        points:['Food Quality Reviews for Govenment Schools','Authentication using Firebase','Built for IT Day Hackathon']
+    },
+    {
+        title:"CryptoTracker",
+        links:['https://crypto-hunter.netlify.app/','https://github.com/RamGoel/cryptotracker-app'],
+        image:'',
+        category:"reactjs",
+        technologies:['reactjs','api'],
+        points:['Allows Tracking of Cryptocurrencies','Data Representation using Charts','Clean and Beautiful UI']
     },
     {
         title:"Food App Design",
@@ -53,25 +77,22 @@ export var projectsData=[
     },
     {
         title:"TEDxABESEC",
-        links:['https://tedxabesec.in/'],
-        image:tedx,
-        category:"Website",
+        links:['https://tedxabesec.in/','https://github.com/tedx-abesec/tedx-2022'],
+        category:"websites",
         technologies:['html', "bootstrap","javaScript"],
         points:['Created for TEDxABESEC Event 2022','Visited by 1000+ students for registration','Included Animations, Optimized Images etc.']
     },
     {
         title:"GDSC ABESEC",
-        links:['https://abesec-gdsc.netlify.app/'],
-        image:gdsc,
-        category:"Website",
+        links:['https://abesec-gdsc.netlify.app/','https://github.com/RamGoel/clubwebsite'],
+        category:"websites",
         technologies:['reactjs'],
         points:['Created for GDSC club','Worked in Team of 3','Used by Students to know updates.']
     },
     {
         title:"Genero",
-        links:['https://genero23.netlify.app/'],
-        image:genero,
-        category:"Website",
+        links:['https://genero23.netlify.app/','https://github.com/RamGoel/genero23'],
+        category:"websites",
         technologies:['reactjs'],
         points:['Created for Genero Fest of ABESEC','Used for Regsitration, Updates and Info','Visited by 1500+ students']
     },
@@ -79,15 +100,36 @@ export var projectsData=[
     {
         title:"SimpliCalc",
         links:['https://www.amazon.com/Sitern-SimpliCalc/dp/B0BR648T88/ref=sr_1_5?qid=1672586146&refinements=p_n_date%3A2479571011&rnid=2479567011&s=mobile-apps&sr=1-5'],
-        category:"App",
+        category:"react-native",
         technologies:['react-native','jsx','javascript'],
         points:['A Calculator built in React Native','Supports Dark/Light Mode Functionality','Simple & Easy Design']
     },
     {
+        title:"Doit",
+        links:['https://github.com/RamGoel/todo-react-native'],
+        category:"react-native",
+        technologies:['react-native','jsx','javascript'],
+        points:['A Todo App built in React Native','Supports GIF Animations','Simple & Beautiful Design']
+    },
+    {
         title:"Xibiller",
         links:['https://github.com/RamGoel/XiBiller-Stable'],
-        category:"App",
-        technologies:['react-native','jsx','javascript'],
+        category:"react-native",
+        technologies:['react-native','firebase'],
         points:['App for Billing at MI outlets','Built during MI Ode2Code Hackathon','Implemented Forms, Auth and more']
+    },
+    {
+        title:"OTP Verify",
+        links:['https://login-react-otp.netlify.app/', 'https://github.com/RamGoel/otp-verify-react'],
+        category:"misc",
+        technologies:['reactjs','api'],
+        points:['OTP Verification Built in ReactJs','Built for a internship assignment','OTP Verified using API']
+    },
+    {
+        title:"Employee CRUD",
+        links:['https://employee-manange.netlify.app/','https://github.com/RamGoel/employee-manage-react'],
+        category:"misc",
+        technologies:['reactjs','api'],
+        points:['CRUD App for Employee Data','Built for a internship assignment','Implemented Forms, CRUD using API']
     },
 ]

@@ -3,7 +3,7 @@ import { projectsData } from './projects/projectData'
 import ProjectCard from './projects/ProjectCard'
 
 function Projects() {
-    const [pageCato, setPageCato] = useState("Design")
+    const [pageCato, setPageCato] = useState("reactjs")
 
     return (
         <div id="portfolio" className='fullHeight'>
@@ -13,11 +13,13 @@ function Projects() {
                 <div>
 
                     <div className='contentChips py-3 mx-auto'>
-                        <p className={`${(pageCato === "Design") ? 'selected' : ''}`} onClick={() => setPageCato("Design")}>UI Designs</p>
-                        <p className={`${(pageCato === "WebApp") ? 'selected' : ''}`} onClick={() => setPageCato("WebApp")}>Web Apps</p>
-                        <p className={`${(pageCato === "Website") ? 'selected' : ''}`} onClick={() => setPageCato("Website")}>Websites</p>
-                        <p className={`${(pageCato === "App") ? 'selected' : ''}`} onClick={() => setPageCato("App")}>Mobile Apps</p>
-                        <p className={`${(pageCato === "Tool") ? 'selected' : ''}`} onClick={() => setPageCato("Tool")}>Tools/Extensions</p>
+                        {/* <p className={`${(pageCato === "Design") ? 'selected' : ''}`} onClick={() => setPageCato("Design")}>UI Designs</p> */}
+                        <p className={`${(pageCato === "reactjs") ? 'selected' : ''}`} onClick={() => setPageCato("reactjs")}>reactjs</p>
+                        <p className={`${(pageCato === "nodejs") ? 'selected' : ''}`} onClick={() => setPageCato("nodejs")}>nodejs</p>
+                        <p className={`${(pageCato === "react-native") ? 'selected' : ''}`} onClick={() => setPageCato("react-native")}>react-native</p>
+                        <p className={`${(pageCato === "websites") ? 'selected' : ''}`} onClick={() => setPageCato("websites")}>websites</p>
+                        <p className={`${(pageCato === "misc") ? 'selected' : ''}`} onClick={() => setPageCato("misc")}>miscellaneous</p>
+                        {/* <p className={`${(pageCato === "Tool") ? 'selected' : ''}`} onClick={() => setPageCato("Tool")}>Tools/Extensions</p> */}
                     </div>
 
                     <div className='projectContainer w-100' style={{ height: '60vh' }}>
@@ -35,10 +37,10 @@ function Projects() {
 
                 </div>
             </div>
-            <div className='text-center'>
+            {/* <div className='text-center'>
 
             <p style={{fontSize:'12px', opacity:0.6}}>Hover on card for description</p>
-            </div>
+            </div> */}
         </div>
     )
 }
