@@ -1,0 +1,17 @@
+.details-container{
+    width: 70%;
+    height: 95vh;
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px;
+}
+.nav-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.selected-link{
+    border-bottom: 2px solid blueviolet;
+}

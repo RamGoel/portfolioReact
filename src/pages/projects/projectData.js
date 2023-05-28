@@ -1,8 +1,6 @@
 import hisaab from '../../assets/hisaab1.png'
 import foodapp from '../../assets/appDev.png'
-// import tedx from '../../assets/tedx.png'
-// import gdsc from '../../assets/gdsc.png'
-// import genero from '../../assets/genero.png'
+
 export var projectsData=[
     {
         title:"CodeChat",
@@ -36,6 +34,14 @@ export var projectsData=[
         category:"reactjs",
         technologies:['reactjs','firebase'],
         points:['Food Quality Reviews for Govenment Schools','Authentication using Firebase','Built for IT Day Hackathon']
+    },
+    {
+        title:"Orgarch",
+        links:['https://orgarch.netlify.app/','https://github.com/RamGoel/orgarch'],
+        image:'',
+        category:"reactjs",
+        technologies:['reactjs','firebase'],
+        points:['Organize Research Conferences Easily','Authentication using Firebase','Built for IT Day Hackathon']
     },
     {
         title:"CryptoTracker",
@@ -131,5 +137,19 @@ export var projectsData=[
         category:"misc",
         technologies:['reactjs','api'],
         points:['CRUD App for Employee Data','Built for a internship assignment','Implemented Forms, CRUD using API']
+    },
+    {
+        title:"NextJS Dashboard",
+        links:['https://listed-app.vercel.app/','https://github.com/RamGoel/listed-app'],
+        category:"misc",
+        technologies:['nextjs','react-charts-js'],
+        points:['Interactive Dashboard in NextJS','Built for a internship assignment','Implemented Forms, CRUD using API']
+    },
+    {
+        title:"Docs Screen Clone",
+        links:['https://docsclone1.netlify.app/','https://github.com/RamGoel/docsclone'],
+        category:"misc",
+        technologies:['reactjs','firebase-auth'],
+        points:['Google Docs Clone built in reactjs','Built for a internship assignment','Implemented Forms, CRUD using API']
     },
 ]

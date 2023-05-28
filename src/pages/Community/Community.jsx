@@ -1,13 +1,18 @@
 import React from 'react'
-import community from '../assets/community.jpg'
+import community from '../../assets/community.jpg'
 function Community() {
   return (
-    <div class="contentDiv fullHeight" id="content3">
+    <div class="contentDiv " id="content3">
 
 
-                <div class="content-inner">
+                <div class="content-inner" style={{
+                    display:'flex',
+                    alignItems:'center'
+                }}>
 
-                    <div class="contain">
+                    <div class="contain" style={{
+                        width:'50%'
+                    }}>
                         <p>
                             I love participating and organizing events,
                             I am the Tech lead of Google Developers Student Club,

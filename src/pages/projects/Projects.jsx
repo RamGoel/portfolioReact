@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { projectsData } from './projects/projectData'
-import ProjectCard from './projects/ProjectCard'
+import { projectsData } from './projectData'
+import ProjectCard from './ProjectCard'
 
 function Projects() {
     const [pageCato, setPageCato] = useState("reactjs")
