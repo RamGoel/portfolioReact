@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Experience from '../Experience/Experience'
 import Community from '../Community/Community'
-import Projects from '../Projects/Projects'
+import Projects from '../projects/Projects'
 import './Details.css'
 import FullTime from '../About/About'
 function Details() {
